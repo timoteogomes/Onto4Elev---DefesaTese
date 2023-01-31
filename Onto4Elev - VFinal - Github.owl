@@ -1,0 +1,2683 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/timot/ontologies/2022/3/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/timot/ontologies/2022/3/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Onto4Elev="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#"
+     xmlns:ontodebug="http://ainf.aau.at/ontodebug#"
+     xmlns:Onto4CAALElev="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4CAALElev#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev">
+        <ontodebug:testCase>
+            <rdf:Description/>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description/>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description/>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description/>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description/>
+        </ontodebug:testCase>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ainf.aau.at/ontodebug#axiom -->
+
+    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#axiom">
+        <rdfs:subPropertyOf rdf:resource="http://ainf.aau.at/ontodebug#testCase"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://ainf.aau.at/ontodebug#testCase -->
+
+    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#testCase"/>
+    
+
+
+    <!-- http://ainf.aau.at/ontodebug#type -->
+
+    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#type">
+        <rdfs:subPropertyOf rdf:resource="http://ainf.aau.at/ontodebug#testCase"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#causaImpacto -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#causaImpacto">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoNaoFuncional"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoFuncional"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#causaImpactoNegativo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#causaImpactoNegativo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#causaImpacto"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#causaImpactoPositivo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#causaImpactoPositivo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#causaImpacto"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#contem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#contem">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éContidoPor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#define -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#define">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#foiDefinidoPor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#estabelece -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#estabelece">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#foiEstabelecido"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#foiDefinidoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#foiDefinidoPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#foiEstabelecido -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#foiEstabelecido">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#impactaPositivamente -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#impactaPositivamente">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoNaoFuncional"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#influencia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#influencia">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éInfluenciadoPor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#possui -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#possui">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éPossuidoPor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Hardware"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#tem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#tem">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#usadoEm"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisito -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisito">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éRequisito"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoFuncional"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoEtico -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoEtico">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoNF"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoF">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisito"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoNF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoNF">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisito"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoQualidadeP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoQualidadeP">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoNF"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoQualidadeU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoQualidadeU">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoNF"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#usadoEm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#usadoEm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#utiliza -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#utiliza">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Software"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éContidoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éContidoPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éImpactado -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éImpactado">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éImpactadoNegativamentePor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éImpactadoNegativamentePor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éImpactado"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éImpactadoPositivamentePor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éImpactadoPositivamentePor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éImpactado"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éInfluenciadoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éInfluenciadoPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éPossuidoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éPossuidoPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Hardware"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éRequisito -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éRequisito">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Internacional -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Internacional">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Legislacao"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Nacional -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Nacional">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Legislacao"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temDefinicao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temDefinicao">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormasExternas"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temDependenciaNorma -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temDependenciaNorma">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormasExternas"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temNumero -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temNumero">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormasExternas"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temTitulo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temTitulo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormasExternas"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AceitacaoSocial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AceitacaoSocial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AceitacaoUso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AceitacaoUso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Termo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Acessibilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Acessibilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Usabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AcompanhanteDomestico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AcompanhanteDomestico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pessoa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Adaptabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Adaptabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Portabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Adaptatividade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Adaptatividade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Adequacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Adequacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Usabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AdequacaoFuncional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AdequacaoFuncional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AptidaoFuncional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Aeroportos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Aeroportos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AmbientesComerciais"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Agent-UFO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Agent-UFO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#tem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AmbientesComerciais -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AmbientesComerciais">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Analisabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Analisabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Manutenabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Aprendizagem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Aprendizagem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Usabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AptidaoFuncional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AptidaoFuncional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Arquiteto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Arquiteto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#IntegranteTimeDev"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Asilo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Asilo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InstituicaoLongaPermanenciaIdosos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AssistenciaExternaConforto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AssistenciaExternaConforto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ServicosConforto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Atuador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Atuador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Autenticidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Autenticidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Segurança"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Autonomia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Autonomia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Autosafe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Autosafe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Bancos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Bancos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AmbientesComerciais"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Barreira -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Barreira">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Beneficencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Beneficencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#BondadeMoral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#BondadeMoral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Botao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Botao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#BotaoEmergencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#BotaoEmergencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Botao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Braile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Braile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Sinalizacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CaixaEnclausurada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CaixaEnclausurada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Camera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Camera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Capacidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Capacidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EficienciaDesempenho"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Casa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Casa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CasaGeriatrica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CasaGeriatrica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InstituicaoLongaPermanenciaIdosos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CentralHidraulica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CentralHidraulica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ChaveLimitadoraPercursoFinal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ChaveLimitadoraPercursoFinal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Chaveta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Chaveta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Clinicas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Clinicas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AmbientesComerciais"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CoberturaContexto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CoberturaContexto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeUso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Coexistencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Coexistencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compatibilidade"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Interoperabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComandoPorVoz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComandoPorVoz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compatibilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compatibilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CompletudeContexto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CompletudeContexto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CoberturaContexto"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Flexibilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CompletudeFuncional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CompletudeFuncional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AptidaoFuncional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éContidoPor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Hardware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComportamentoTempo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComportamentoTempo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EficienciaDesempenho"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Confiabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Confiabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ConfiancaSeguranca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ConfiancaSeguranca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Segurança"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ConfiancaUso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ConfiancaUso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Satisfacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Confidencialidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Confidencialidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Segurança"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Conforto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Conforto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Satisfacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ContactorRele -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ContactorRele">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CorrecaoFuncional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CorrecaoFuncional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AptidaoFuncional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Corrente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Corrente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CorrenteGuiada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CorrenteGuiada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Corrente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CortinaEletronicaSeguranca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CortinaEletronicaSeguranca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CremalheiraAcionamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CremalheiraAcionamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Cuidador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Cuidador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Decretos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Decretos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Legislacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Display -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Display">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Disponibilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Disponibilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Confiabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoBloqueioMecanico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoBloqueioMecanico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoControlePlataforma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoControlePlataforma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Hardware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Eficacia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Eficacia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeUso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Eficiencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Eficiencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeUso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EficienciaDesempenho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EficienciaDesempenho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EngenheiroCivil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EngenheiroCivil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#IntegranteTimeDev"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EngenheiroMecanico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EngenheiroMecanico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#IntegranteTimeDev"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Engrenagem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Engrenagem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EntradaPrincipal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EntradaPrincipal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Casa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EspecificacaoRequisitos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EspecificacaoRequisitos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PoliticasNormasInternas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EsteticaInterfaceUsuario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EsteticaInterfaceUsuario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Usabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Fabricante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Fabricante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Organizacao"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Familiar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Familiar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pessoa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Farmacias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Farmacias">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AmbientesComerciais"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Fidelidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Fidelidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Flexibilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Flexibilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CoberturaContexto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#FreioSeguranca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#FreioSeguranca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#FusoAcionador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#FusoAcionador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Guias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Guias">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#HabitacoesMedicas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#HabitacoesMedicas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InstituicaoLongaPermanenciaIdosos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Hardware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Hardware"/>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#IEC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#IEC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormasExternas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ISO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ISO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormasExternas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Idoso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Idoso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#UsuarioFinal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PNE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Igrejas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Igrejas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LocaisPublicos"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ReparticoesPublicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Independencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Independencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Instabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Instabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Portabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InstituicaoLongaPermanenciaIdosos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InstituicaoLongaPermanenciaIdosos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InstrucoesNormativas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InstrucoesNormativas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Legislacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#IntegranteTimeDev -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#IntegranteTimeDev">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pessoa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Integridade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Integridade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Segurança"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Interfone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Interfone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Interoperabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Interoperabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compatibilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InterruptorAfrouxamentoCaboCorrente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InterruptorAfrouxamentoCaboCorrente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InterruptorParada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InterruptorParada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InterruptorSeguranca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InterruptorSeguranca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InversorFrequencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InversorFrequencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Justica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Justica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LampadasLed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LampadasLed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Legislacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Legislacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Leis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Leis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Legislacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LimitadorVelocidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LimitadorVelocidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LivreRisco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LivreRisco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeUso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LocaisPublicos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LocaisPublicos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Manutenabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Manutenabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Maturidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Maturidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Confiabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscoAmbiental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscoAmbiental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LivreRisco"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscoEconomico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscoEconomico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LivreRisco"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscoSocial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscoSocial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LivreRisco"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscosSaudeSeguranca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscosSaudeSeguranca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LivreRisco"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Modificabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Modificabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Manutenabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Modularidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Modularidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Manutenabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormasExternas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NaoMaleficencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NaoMaleficencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NaoRepudio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NaoRepudio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Segurança"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormasExternas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormasExternas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormatizacaoComiteEticaPesquisa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormatizacaoComiteEticaPesquisa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PoliticasNormasInternas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#OperabilidadeUsuario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#OperabilidadeUsuario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Usabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Operador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Operador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pessoa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Organizacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Organizacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SocialAgent-UFO"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PNE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PNE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#UsuarioFinal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pareceres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pareceres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Legislacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pessoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pessoa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PhysicalAgent-UFO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PhysicalAgent-UFO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PhysicalAgent-UFO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Agent-UFO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pinhao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pinhao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PistaoHidraulico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PistaoHidraulico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PlataformaElevacaoVertical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PlataformaElevacaoVertical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ServicosTransporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Politica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Politica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PoliticasNormasInternas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PoliticasNormasInternas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PoliticasNormasInternas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Porca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Porca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PorcaAcionamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PorcaAcionamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Porca"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PorcaSeguranca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PorcaSeguranca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PorcaSeguranca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Porca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Portabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Portabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Portarias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Portarias">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Legislacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Prazer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Prazer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Satisfacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PrivacidadeDados -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PrivacidadeDados">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PrivacidadeNoUSo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PrivacidadeNoUSo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PrivacidadeNoUso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PrivacidadeNoUso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeUso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ProtecaoContraErrosUsuario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ProtecaoContraErrosUsuario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Usabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ProtetorSoleira -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ProtetorSoleira">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoQualidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeUso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeUso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoQualidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rastreabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rastreabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Recuperabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Recuperabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Confiabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ReparticoesPublicas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ReparticoesPublicas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LocaisPublicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#foiDefinidoPor"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#foiEstabelecido"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoNaoFuncional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoFuncional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoFuncional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoNaoFuncional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoNaoFuncional">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoNF"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoNF"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoQualidade"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisitoNF"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoQualidade"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoQualidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoQualidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoNaoFuncional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Resolucoes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Resolucoes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Legislacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Responsabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Responsabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Segurança"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ResponsabilidadeSocialAmbiental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ResponsabilidadeSocialAmbiental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Politica"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SegurancaCorporativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Restaurantes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Restaurantes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AmbientesComerciais"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Reutilizacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Reutilizacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Manutenabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RodaDentada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RodaDentada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SalaEstar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SalaEstar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Casa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SalaJantar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SalaJantar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Casa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Satisfacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Satisfacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeUso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SegurancaCorporativa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SegurancaCorporativa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Politica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Segurança -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Segurança">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ServicosConforto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ServicosConforto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ServicosTransporte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ServicosTransporte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AssistenciaExternaConforto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Sinalizacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Sinalizacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Hardware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SistemasAAL">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#possui"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Hardware"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#temRequisito"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#usadoEm"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#utiliza"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Software"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#éInfluenciadoPor"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SocialAgent-UFO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#SocialAgent-UFO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Agent-UFO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Software"/>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Sonora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Sonora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Sinalizacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#define"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Agent-UFO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Substituibilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Substituibilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Portabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Supermercados -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Supermercados">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AmbientesComerciais"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Switches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Switches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Termo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Termo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PoliticasNormasInternas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Testabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Testabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Manutenabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ToleranciaErro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ToleranciaErro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Confiabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Usabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Usabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#QualidadeProduto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#UsuarioFinal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#UsuarioFinal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pessoa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Utilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Utilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RequisitoEtico"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Satisfacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#UtilizacaoRecursos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#UtilizacaoRecursos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EficienciaDesempenho"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Valvula -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Valvula">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponentesMecanicos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#deConfidencialidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#deConfidencialidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Termo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#deResponsabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#deResponsabilidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Termo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#10982 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#10982">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#12892 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#12892">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#16042 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#16042">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#60204-1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#60204-1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#IEC"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#60335-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#60335-1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#60335-1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#IEC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#9050 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#9050">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#9085-1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#9085-1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ISO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#9386-1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#9386-1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente_Casa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente_Casa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Casa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#BotaoEmergencia-_TipoCogumelo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#BotaoEmergencia-_TipoCogumelo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#BotaoEmergencia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponenteMecanico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponenteMecanico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Davi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Davi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PNE"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
+        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_9050 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_9050">
+        <rdfs:comment>A norma NBR 9050/2020 que trata sobre Acessibilidade a edificações, mobiliário, espaços e equipamentos urbanos e estabelece critérios e parâmetros técnicos a serem observados quanto ao projeto, construção, instalação e adaptação do meio urbano e rural, e de edificações às condições de acessibilidade.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR"/>
+        <Onto4Elev:influencia rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-14"/>
+        <Onto4Elev:influencia rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-16"/>
+        <Onto4Elev:influencia rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-3"/>
+        <Onto4Elev:influencia rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-7"/>
+        <rdfs:comment>A ABNT NBR ISO 9386-1 é uma norma que define os 
+requisitos para o projeto e instalação de plataformas verticais 
+de acessibilidade.
+A referida norma é aplicada para construção de plataformas de
+elevação motorizadas para pessoas com mobilidade reduzida, 
+contendo requisitos para segurança, dimensões e operação funcional.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Plataforma_Elevacao_Vertical_-_Montelle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Plataforma_Elevacao_Vertical_-_Montelle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ServicosTransporte"/>
+        <Onto4Elev:contem rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento-Linear"/>
+        <Onto4Elev:possui rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
+        <Onto4Elev:temRequisito rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <Onto4Elev:usadoEm rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente_Casa"/>
+        <Onto4Elev:utiliza rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#software-controle"/>
+        <Onto4Elev:éInfluenciadoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Integridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdfs:comment>A PEV deve possuir uma velocidade máxima de até 0,15 m/s</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Capacidade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdfs:comment>A carga nominal considerada da PEV deve ser de 2453 N</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComportamentoTempo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdfs:comment>A expectativa de vida da PEV foi definida para um uso diário de 1h em 10 anos, resultando em 3650 horas.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ToleranciaErro"/>
+        <rdfs:comment>A PEV acionada por fuso deve contar com um uma porca de segurança, sendo essas acopladas á castanha e tem por objetivo a prevenção diante de uma queda descontrolada da porca sobre o fuso.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#OperabilidadeUsuario"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdfs:comment>A PEV terá os botões de subida e descida dentro da plataforma, além dos botões de chamada nos dois pavimentos</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#OperabilidadeUsuario"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <Onto4Elev:éInfluenciadoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1"/>
+        <rdfs:comment>A PEV terá os botões de subida e descida dentro da plataforma, além dos botões de chamada nos dois pavimentos</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#OperabilidadeUsuario"/>
+        <rdfs:comment>Cada pavimento contará com um botão de chamada e um botão de emergência protegido</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ProtecaoContraErrosUsuario"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <Onto4Elev:éInfluenciadoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1"/>
+        <rdfs:comment>De acordo com a norma NBR 9386-1, é necessário garantir que o botão seja mantido pressionado durante toda a viagem</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Adequacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdfs:comment>As dimensões planas mínimas da PEV para o uso adotado, que foi o de cabine com acompanhante em pé atrás do usuário de em cadeira de rodas, é de 800 x 1600 mm (largura x comprimento)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ToleranciaErro"/>
+        <Onto4Elev:éInfluenciadoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1"/>
+        <rdfs:comment>De acordo com a ABNT NBR ISO 9386-1:2013, o equipamento precisa ter duas formas para parada.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#UtilizacaoRecursos"/>
+        <rdfs:comment>A PEV deve ter freio eletromagnético normalmente fechado.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Recuperabilidade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdfs:comment>A PEV deve ter freio contra falha do sistema de acionamento</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#UtilizacaoRecursos"/>
+        <rdfs:comment>A PEV deve possuir partida do motor controlado por inversor de frequência</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Responsabilidade"/>
+        <Onto4Elev:foiDefinidoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Tulio"/>
+        <Onto4Elev:éInfluenciadoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1"/>
+        <rdfs:comment>A norma ABNT NBR ISO 9386-1:2013 define que, salvo indicação
+em contrário, o fator de segurança para todas as partes do 
+equipamento deve ser maior ou igual a 1,6. Para este projeto, 
+o fator definido foi 7, ou seja, atende aos requisitos da norma.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscosSaudeSeguranca"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdfs:comment>O revestimento do piso da PEV deve ser antiderrapante</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Modificabilidade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+        <rdfs:comment>O rolamento da PEV deve ser substituído a cada 3 anos.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento-Linear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento-Linear">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Tulio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Tulio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EngenheiroMecanico"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
+        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-10"/>
+        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-11"/>
+        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-12"/>
+        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-13"/>
+        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-15"/>
+        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-4"/>
+        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-5"/>
+        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-6"/>
+        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-8"/>
+        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#software-controle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#software-controle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Software"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaExternaConforto DisjointWith AssistenciaInternaConforto</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaExternaAutonomia</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaExternaConforto DisjointWith AssistenciaInternaConforto</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaInternaAutonomia</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaInternaAutonomia</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaInternaAutonomia</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaExternaAutonomia</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaExternaConforto DisjointWith AssistenciaInternaConforto</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaExternaAutonomia</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AceitacaoUso"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#deConfidencialidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#deResponsabilidade"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Acessibilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Adequacao"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Aprendizagem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EsteticaInterfaceUsuario"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#OperabilidadeUsuario"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ProtecaoContraErrosUsuario"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Adaptabilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Instabilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Substituibilidade"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Adaptatividade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AptidaoFuncional"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compatibilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Confiabilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EficienciaDesempenho"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Manutenabilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Portabilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PrivacidadeDados"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rastreabilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Segurança"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Usabilidade"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#AdequacaoFuncional"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CompletudeFuncional"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CorrecaoFuncional"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Aeroportos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Bancos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Clinicas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Farmacias"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Restaurantes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Supermercados"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Analisabilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Modificabilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Modularidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Reutilizacao"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Testabilidade"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Asilo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CasaGeriatrica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#HabitacoesMedicas"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Atuador"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Autosafe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Botao"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Camera"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ChaveLimitadoraPercursoFinal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComandoPorVoz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ContactorRele"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CortinaEletronicaSeguranca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Display"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoControlePlataforma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Interfone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InterruptorAfrouxamentoCaboCorrente"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InterruptorParada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InterruptorSeguranca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InversorFrequencia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LampadasLed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LimitadorVelocidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Switches"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Autenticidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ConfiancaSeguranca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Confidencialidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Integridade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NaoRepudio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Responsabilidade"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Barreira"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CaixaEnclausurada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CentralHidraulica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Chaveta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Corrente"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CremalheiraAcionamento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoBloqueioMecanico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Engrenagem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#FreioSeguranca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#FusoAcionador"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Guias"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pinhao"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PistaoHidraulico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Porca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ProtetorSoleira"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RodaDentada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Valvula"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Barreira"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CaixaEnclausurada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Chaveta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Corrente"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CremalheiraAcionamento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoBloqueioMecanico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Engrenagem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#FreioSeguranca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#FusoAcionador"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Guias"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pinhao"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Porca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ProtetorSoleira"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#RodaDentada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Valvula"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Capacidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComportamentoTempo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#UtilizacaoRecursos"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#CoberturaContexto"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Eficacia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Eficiencia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#LivreRisco"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PrivacidadeNoUso"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Satisfacao"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ConfiancaUso"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Conforto"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Prazer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Utilidade"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Decretos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#InstrucoesNormativas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Leis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Pareceres"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Portarias"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Resolucoes"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Disponibilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Maturidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Recuperabilidade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ToleranciaErro"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EspecificacaoRequisitos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormatizacaoComiteEticaPesquisa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Politica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Termo"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#IEC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ISO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Legislacao"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NormasExternas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PoliticasNormasInternas"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscoAmbiental"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscoEconomico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscoSocial"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscosSaudeSeguranca"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#10982"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#12892"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#16042"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#9050"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#9386-1"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
