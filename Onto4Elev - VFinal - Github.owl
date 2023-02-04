@@ -2041,328 +2041,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#9386-1">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR"/>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente_Casa -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente_Casa">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Casa"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#BotaoEmergencia-_TipoCogumelo -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#BotaoEmergencia-_TipoCogumelo">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#BotaoEmergencia"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponenteMecanico -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComponenteMecanico"/>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Davi -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Davi">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#PNE"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
-        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-2"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_9050 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_9050">
-        <rdfs:comment>A norma NBR 9050/2020 que trata sobre Acessibilidade a edificações, mobiliário, espaços e equipamentos urbanos e estabelece critérios e parâmetros técnicos a serem observados quanto ao projeto, construção, instalação e adaptação do meio urbano e rural, e de edificações às condições de acessibilidade.</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Compliance"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR"/>
-        <Onto4Elev:influencia rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-14"/>
-        <Onto4Elev:influencia rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-16"/>
-        <Onto4Elev:influencia rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-3"/>
-        <Onto4Elev:influencia rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-7"/>
-        <rdfs:comment>A ABNT NBR ISO 9386-1 é uma norma que define os 
-requisitos para o projeto e instalação de plataformas verticais 
-de acessibilidade.
-A referida norma é aplicada para construção de plataformas de
-elevação motorizadas para pessoas com mobilidade reduzida, 
-contendo requisitos para segurança, dimensões e operação funcional.</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Plataforma_Elevacao_Vertical_-_Montelle -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Plataforma_Elevacao_Vertical_-_Montelle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ServicosTransporte"/>
-        <Onto4Elev:contem rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento-Linear"/>
-        <Onto4Elev:possui rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#DispositivoEletrico"/>
-        <Onto4Elev:temRequisito rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <Onto4Elev:usadoEm rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Ambiente_Casa"/>
-        <Onto4Elev:utiliza rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#software-controle"/>
-        <Onto4Elev:éInfluenciadoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Integridade"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdfs:comment>A PEV deve possuir uma velocidade máxima de até 0,15 m/s</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-10 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-10">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Capacidade"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdfs:comment>A carga nominal considerada da PEV deve ser de 2453 N</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-11 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-11">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ComportamentoTempo"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdfs:comment>A expectativa de vida da PEV foi definida para um uso diário de 1h em 10 anos, resultando em 3650 horas.</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-12 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-12">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ToleranciaErro"/>
-        <rdfs:comment>A PEV acionada por fuso deve contar com um uma porca de segurança, sendo essas acopladas á castanha e tem por objetivo a prevenção diante de uma queda descontrolada da porca sobre o fuso.</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-13 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-13">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#OperabilidadeUsuario"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdfs:comment>A PEV terá os botões de subida e descida dentro da plataforma, além dos botões de chamada nos dois pavimentos</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-14 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-14">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#OperabilidadeUsuario"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <Onto4Elev:éInfluenciadoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1"/>
-        <rdfs:comment>A PEV terá os botões de subida e descida dentro da plataforma, além dos botões de chamada nos dois pavimentos</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-15 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-15">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#OperabilidadeUsuario"/>
-        <rdfs:comment>Cada pavimento contará com um botão de chamada e um botão de emergência protegido</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-16 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-16">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ProtecaoContraErrosUsuario"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <Onto4Elev:éInfluenciadoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1"/>
-        <rdfs:comment>De acordo com a norma NBR 9386-1, é necessário garantir que o botão seja mantido pressionado durante toda a viagem</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-2 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Adequacao"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdfs:comment>As dimensões planas mínimas da PEV para o uso adotado, que foi o de cabine com acompanhante em pé atrás do usuário de em cadeira de rodas, é de 800 x 1600 mm (largura x comprimento)</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-3 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#ToleranciaErro"/>
-        <Onto4Elev:éInfluenciadoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1"/>
-        <rdfs:comment>De acordo com a ABNT NBR ISO 9386-1:2013, o equipamento precisa ter duas formas para parada.</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-4 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#UtilizacaoRecursos"/>
-        <rdfs:comment>A PEV deve ter freio eletromagnético normalmente fechado.</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-5 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-5">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Recuperabilidade"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdfs:comment>A PEV deve ter freio contra falha do sistema de acionamento</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-6 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-6">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#UtilizacaoRecursos"/>
-        <rdfs:comment>A PEV deve possuir partida do motor controlado por inversor de frequência</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-7 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-7">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Responsabilidade"/>
-        <Onto4Elev:foiDefinidoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Tulio"/>
-        <Onto4Elev:éInfluenciadoPor rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#NBR_ISO_9386-1"/>
-        <rdfs:comment>A norma ABNT NBR ISO 9386-1:2013 define que, salvo indicação
-em contrário, o fator de segurança para todas as partes do 
-equipamento deve ser maior ou igual a 1,6. Para este projeto, 
-o fator definido foi 7, ou seja, atende aos requisitos da norma.</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-8 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-8">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#MitigacaoRiscosSaudeSeguranca"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdfs:comment>O revestimento do piso da PEV deve ser antiderrapante</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-9 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-9">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Modificabilidade"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-        <rdfs:comment>O rolamento da PEV deve ser substituído a cada 3 anos.</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Requisito"/>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento-Linear -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento-Linear">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Rolamento"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Tulio -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Tulio">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#EngenheiroMecanico"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Stakeholder"/>
-        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-10"/>
-        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-11"/>
-        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-12"/>
-        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-13"/>
-        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-15"/>
-        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-4"/>
-        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-5"/>
-        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-6"/>
-        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-8"/>
-        <Onto4Elev:define rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#REQ-9"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#software-controle -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#software-controle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/timot/ontologies/2022/3/Onto4Elev#Software"/>
-    </owl:NamedIndividual>
     <rdf:Description>
-        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
-        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
-    </rdf:Description>
-    <rdf:Description>
-        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
-        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
-    </rdf:Description>
-    <rdf:Description>
-        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
-        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
-    </rdf:Description>
-    <rdf:Description>
-        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
-        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
-    </rdf:Description>
-    <rdf:Description>
-        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaExternaConforto DisjointWith AssistenciaInternaConforto</ontodebug:axiom>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaExternaAutonomia</ontodebug:axiom>
         <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
     </rdf:Description>
     <rdf:Description>
@@ -2374,11 +2054,31 @@ o fator definido foi 7, ou seja, atende aos requisitos da norma.</rdfs:comment>
         <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
     </rdf:Description>
     <rdf:Description>
-        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaInternaAutonomia</ontodebug:axiom>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaExternaConforto DisjointWith AssistenciaInternaConforto</ontodebug:axiom>
         <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
     </rdf:Description>
     <rdf:Description>
         <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaExternaAutonomia</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaInternaAutonomia</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaExternaConforto DisjointWith AssistenciaInternaConforto</ontodebug:axiom>
         <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
     </rdf:Description>
     <rdf:Description>
@@ -2391,26 +2091,22 @@ o fator definido foi 7, ou seja, atende aos requisitos da norma.</rdfs:comment>
     </rdf:Description>
     <rdf:Description>
         <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
-        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
     </rdf:Description>
     <rdf:Description>
         <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
         <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
     </rdf:Description>
     <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaInternaConforto DisjointWith ServicosAcompanhamento</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
         <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaInternaAutonomia</ontodebug:axiom>
-        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
-    </rdf:Description>
-    <rdf:Description>
-        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaExternaAutonomia</ontodebug:axiom>
-        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
-    </rdf:Description>
-    <rdf:Description>
-        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AssistenciaExternaConforto DisjointWith AssistenciaInternaConforto</ontodebug:axiom>
-        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
-    </rdf:Description>
-    <rdf:Description>
-        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ServicosApoioAtividadesProfissionais SubClassOf AssistenciaExternaAutonomia</ontodebug:axiom>
         <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
     </rdf:Description>
     
